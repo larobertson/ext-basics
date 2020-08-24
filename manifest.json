@@ -4,10 +4,13 @@
   "version": "0.1.0",
   "manifest_version": 2,
   "icons": {
-    "16": ""
+    "16": "./lrclogo-bw.png",
+    "32": "./lrclogo-bw.png",
+    "48": "./lrclogo-bw.png",
+    "128": "./lrclogo-bw.png"
   },
   "background": {
-    "scripts": ["./background.js"]
+    "scripts": ["./background.js", "./foreground.js"]
   },
   "options_page": "./options.html",
   "browser_action": {
@@ -15,6 +18,6 @@
   },
   "permissions": [
     "tabs",
-    "https://google.com"
+    "https://www.google.com/*"
   ]
 }
