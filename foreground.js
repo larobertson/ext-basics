@@ -17,6 +17,6 @@ first.addEventListener('click', () => {
 })
 
 second.addEventListener('click', () => {
-  chrome.runtime.sendMessage({message: 'yo check the storage!!!'})
+  chrome.runtime.sendMessage({message: 'yo check the storage!!!'}, (res) => console.log('response:', res))
   console.log('I sent the message');
 })
