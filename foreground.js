@@ -1,1 +1,1 @@
-console.log('this is the foreground!!');
+console.log('this is the foreground');
